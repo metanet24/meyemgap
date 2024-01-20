@@ -1,0 +1,184 @@
+.header-top{
+    background-color: rgb(235, 136, 7);
+    width: 100%;
+    height: 50px;
+}
+.top-left ul{
+    display: flex;
+    margin-top: 10px;
+}
+.top-left ul li{
+    list-style: none;
+    color: white;
+    margin-right: 10px;
+    display: flex;
+  
+
+}
+.top-left ul li:nth-child(1){
+    width: 40px;
+    height: 20px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-left:none ;
+    border-top: none;
+    padding-right: 10px;
+    align-items: center;
+    
+}
+.top-left ul li:nth-child(2){
+    width: 95px;
+    height: 20px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-left:none ;
+    border-top: none;
+    align-items: center;
+    
+}
+.top-left ul li:nth-child(3){
+    align-items: center;
+    width: 95px;
+    height: 20px;
+}
+
+.top-right ul{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 250px;
+}
+.top-right ul li{
+    list-style: none;
+    color: white;
+    margin-right: 10px;
+  
+}
+.top-right ul li:nth-child(1){
+    width: 30px;
+    height: 20px;
+    border: 1px solid white;
+    border-bottom: none;
+    border-left:none ;
+    border-top: none;
+    padding-right: 10px;
+    align-items: center;
+    
+}
+.top-right ul li:nth-child(1){
+    width: 30px;
+    height: 20px;
+    align-items: center;
+    
+}
+.header-middle{
+    width: 100%;
+    background-color: whitesmoke;
+    display: flex;
+}
+.middle-left img{
+   
+    height: 48px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+   
+
+}
+.middle-middle{
+    height: 100%;
+}
+.middle-middle ul{
+display: flex;
+height: 100%;
+align-items: center;
+gap: 15px;
+
+}
+.middle-middle ul li{
+    list-style: none;
+    color: rgb(131, 127, 127);
+   
+}
+.middle-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+.slider img{
+    width: 100%;
+    height: 520px;
+}
+.middle-right .hamb{
+   opacity: 0;
+}
+@media (max-width:816px) {
+    .middle-middle ul {
+        display: none;
+    }
+     .middle-right .hamb{
+        opacity: 1 !important;
+    } 
+    .top-right ul li{
+        font-size: 13px;
+    }
+}
+
+.card img{
+    height: 460px;
+    width: 360px;
+  margin-top: 30px;
+  border-radius: 15px;
+}
+.card-top{
+    text-align: center;
+    margin-top: 
+    50px;
+    color: rgb(153, 148, 148);
+}
+.naxtel-plus{
+    background-image: url(/assets/img/naxtel_plus_background_en.png);
+    margin-top: 50px;
+    height: 500px;
+    width: 100%;
+    background-color:  rgb(235, 136, 7);
+}
+
+.plus-left .left-top img{
+    height: 80px;
+    width: 80px;
+    margin-top: 100px;
+    
+}
+.plus-left .left-middle{
+    margin-top: 20px;
+    
+    color: white;
+}
+.plus-left .left-right ul{
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+.plus-left .left-right ul li img{
+height: 50px;
+width: 150px;
+
+
+}
+.plus-left .left-right ul li{
+    list-style: none;
+     
+}
+.plus-right{
+    height: 100%;
+    width: 100%;
+}
+
+.plus-right img{
+    height: 100%;
+    width: 100%;
+    
+    
+}
